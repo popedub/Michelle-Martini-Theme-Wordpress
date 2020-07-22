@@ -1,0 +1,39 @@
+.gallery-home {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.ti-gallery-home {
+  z-index: 100;
+
+  h1 {
+    @include media-breakpoint-up(lg) {
+      font-size: 6vw;
+      letter-spacing: 15px;
+    }
+  }
+
+  h2 {
+    @include media-breakpoint-up(lg) {
+      letter-spacing: 5px;
+    }
+  }
+}
+
+.slick-track {
+  height: 100vh;
+}
+
+.slick-slide {
+  position: relative;
+}
+
+.foto-home {
+  float: right;
+  position: absolute;
+  bottom: $spacer;
+  right: $spacer;
+}
